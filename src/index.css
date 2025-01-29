@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.menuLi{
+    @apply p-2 hover:bg-red-600 hover:text-white rounded-lg ;
+}
