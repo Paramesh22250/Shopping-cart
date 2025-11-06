@@ -15,7 +15,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm init
+        run: npm ci
 
       - name: Build Vite Project
         run: npm run build
