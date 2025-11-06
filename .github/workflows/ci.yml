@@ -14,8 +14,8 @@ jobs:
           node-version: 20
           #cache: 'npm'
 
-     # - name: Install dependencies
-     #   run: npm ci
+      - name: Install dependencies
+        run: npm init
 
       - name: Build Vite Project
         run: npm run build
